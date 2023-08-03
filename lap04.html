@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            background-color: rgb(142, 255, 255);
+        }
+        
+
+        input {
+            width: 260px; 
+        }
+
+        div {
+            margin: auto;
+            border-radius: 20px;
+            background-color: aliceblue;
+            height: 450px;
+            width: 400px;
+            border: 1px solid rgb(0, 0, 0);
+        }
+        form {
+            /* background-color: red; */
+            width: 300px;
+            margin-left: 20px;
+            /* border: solid lime; */
+        }
+        select {
+            width: 80%;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="lap02.html">Education</a>
+            <a href="lap03.html">Work_Experience</a>
+            <a href="#">Contact Me</a>
+        </nav>
+        <hr>
+        <h1>Contact Me</h1>
+
+
+        <div>
+            <form>
+                <p>Enter your info</p>
+                <label for="fname">Your Name</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Your E-mail</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="select">Gender</label><br>
+                <select name="select" id="cars">
+                <option value="volvo">Select</option>
+                <option value="volvo">Men</option>
+                <option value="saab">Women</option>
+                </select><br><br>
+                
+                <label for="w3review">Message</label><br>
+                <textarea id="w3review" name="w3review" rows="10" cols="30"></textarea>
+                <br>
+                <button>Send</button>
+                <button>Clear</button>
+              </form>
+              
+        </div>
+
+
+
+
+    </main>
+</body>
+</html>
